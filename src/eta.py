@@ -39,7 +39,7 @@ ehandler = EventHandler(log)
 LOGGING = getConfig("LOGGING")
 
 
-@ehandler.on(command="ota", hasArgs=False, outgoing=True)
+@ehandler.on(command="eta", hasArgs=False, outgoing=True)
 async def bruh(event):
     if not event.text[0].isalpha() and event.text[0] in ("."):
         t = "Dont waste my time and irritate me for no reason "
@@ -48,16 +48,16 @@ async def bruh(event):
             await event.edit(t)
 
 DESC = (
-    "ota "
+    "eta "
 )
 register_cmd_usage(
-    "ota",
+    "eta",
     "",
-    "Pls stop ota begging"
+    "Pls stop eta begging"
 )
 register_module_desc(DESC)
 register_module_info(
-    name="ota",
+    name="eta",
     authors="Risen",
     version="1.0.0"
 )
