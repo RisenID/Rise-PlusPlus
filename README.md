@@ -4,7 +4,7 @@
 Rise++ is an additional module repository for nunopenim's and prototype74's telegram bot called HyperUBot.
 
 ## Instructions
-In telegram run `.pkg update Ryzen5950XT/Rise-PlusPlus` to add Rise++ as a repo to HyperUBot.
+In telegram run `.pkg update RisenID/Rise-PlusPlus` to add Rise++ as a repo to HyperUBot.
 After that you can install any module you want using `.pkg install <modulename>`.
 
 ## License
